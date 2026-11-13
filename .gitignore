@@ -1,0 +1,18 @@
+# секреты и локальные данные
+.env
+data/
+*.db
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.idea/
+
+# реальные списки сотрудников держим вне репозитория
+private/
+*.xlsx
+!sample/*.xlsx
